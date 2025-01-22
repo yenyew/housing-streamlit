@@ -44,7 +44,7 @@ st.subheader('User Input Parameters')
 st.write(df)
 
 # Load your pre-trained model (assuming it's saved as 'Gradient_Boosting_Regressor.pkl')
-model = joblib.load('C:\MLDP\Gradient_Boosting_Regressor.pkl')  # Use your model's path here
+model = joblib.load('Gradient_Boosting_Regressor.pkl')  # Use your model's path here
 
 # Make a prediction based on user input
 prediction = model.predict(df)
