@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib  # or pickle, depending on how your model is saved
+import joblib
 
 # Title of the app
 st.write("""
